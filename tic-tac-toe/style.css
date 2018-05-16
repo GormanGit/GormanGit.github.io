@@ -1,0 +1,129 @@
+body {
+  background-image: url("https://ak5.picdn.net/shutterstock/videos/15351268/thumb/1.jpg");
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 700px;
+  /*border: 1px solid green;*/
+}
+/*centered*/
+section {
+  margin: auto;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 315px;
+  /*border: 1px solid blue;*/
+  height: 500px;
+}
+#start {
+
+  margin: auto;
+  width: 310px;
+  border: 1px solid yellow;
+
+}
+
+#clear {
+  font-family: 'Press Start 2P', cursive;
+  height: 40px;
+  width: 310px;
+  /*background-color: #66ffff;*/
+  /*color: blue;*/
+}
+
+div[data-cell] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Press Start 2P', cursive;
+  color: #42FD40;
+  width: 100px;
+  height: 100px;
+  /*background-color: #00f2f2f2;*/
+  float: left;
+  border: 2px solid #F8FE38;
+  font-size: 60px;
+  text-align: center;
+}
+
+.row {
+  clear: both;
+}
+
+#announce-winner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 305px;
+  height: 50px;
+  /*border: 1px solid orange;*/
+  /*background-color: #00f2f2f2;*/
+  color: #FFFFFF;
+  clear: both;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1100px) {
+  body{
+    background-image: url("https://ak5.picdn.net/shutterstock/videos/15351268/thumb/1.jpg");
+    background-size: 300%;
+    width: 100%;
+    height: 400%;
+  }
+  #start{
+    width:157px;
+  }
+  section {
+    height: auto;
+    width:auto;
+    /*height: 250px;
+    width: 160px;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*border: 1px solid white;*/
+
+  }
+
+  div[data-cell] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    font-family: 'Press Start 2P', cursive;
+    color: #42FD40;
+    width: 50px;
+    height: 50px;
+    /*background-color: #00f2f2f2;*/
+    float: left;
+    border: 1px solid #F8FE38;
+    font-size: 30px;
+    text-align: center;
+  }
+  #clear {
+    font-family: 'Press Start 2P', cursive;
+    height: 20px;
+    width: 153px;
+    /*background-color: #66ffff;*/
+    color: blue;
+  }
+  #announce-winner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 152px;
+    height: 50px;
+    /*border: 1px solid orange;*/
+    /*background-color: #00f2f2f2;*/
+    color: #FFFFFF;
+    clear: both;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+  }
+}
