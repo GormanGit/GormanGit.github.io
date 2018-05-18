@@ -73,17 +73,17 @@ background-color: gainsboro;
     grid-column: 16/17;
 }
 .item13{
-    background-color: blue;
+    background-color: blueviolet;
     grid-row: 6/7;
     grid-column: 17/18;
 }
 .item14{
-    background-color: green;
+    background-color: rebeccapurple;
     grid-row: 6/7;
     grid-column: 18/19;
 }
 .item15{
-    background-color: yellow;
+    background-color: blue;
     grid-row: 6/7;
     grid-column: 19/20;
 }
@@ -95,11 +95,14 @@ background-color: gainsboro;
 /*Slider item text*/
 h3{
     text-transform: uppercase;
+    text-align: center;
     color: yellow;
     font-size: 2em;
 }
 p{
     color: white;
+    text-align: center;
+
 }
  .item2{
     grid-column: 1 / 14;
