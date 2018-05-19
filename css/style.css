@@ -3,7 +3,8 @@
 body {
     height: 900px;
     font-family: sans-serif;
-    background-image: url("http://www.baltana.com/files/wallpapers-1/Nebula-Background-Wallpaper-05468.jpg");
+    background-color: black;
+    /*background-image: url("http://www.baltana.com/files/wallpapers-1/Nebula-Background-Wallpaper-05468.jpg");*/
     /* Full height */
     /*height: 120%;*/
     /* Center and scale the image nicely */
