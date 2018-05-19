@@ -1,14 +1,11 @@
 * { box-sizing: border-box; }
 
 body {
-    /*height: 1000px;*/
+    height: 900px;
     font-family: sans-serif;
-    background-image: url("https://images.unsplash.com/photo-1456947700819-d91abdf38117?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=58742f4101cc22b4827a853af65e6972&auto=format&fit=crop&w=1351&q=80");
-
-
+    background-image: url("http://www.baltana.com/files/wallpapers-1/Nebula-Background-Wallpaper-05468.jpg");
     /* Full height */
-    height: 100%;
-
+    /*height: 120%;*/
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
@@ -17,7 +14,7 @@ body {
 
 .scene {
     display: flex;
-    border: 1px solid green;
+    /*border: 1px solid green;*/
     /*margin: 40px 0;*/
     position: relative;
     width: 640px;
@@ -42,7 +39,7 @@ body {
     height: 480px;
     left: 10px;
     top: 10px;
-    border: 2px solid black;
+    border: 2px solid white;
     line-height: 116px;
     font-size: 80px;
     font-weight: bold;
@@ -63,10 +60,15 @@ body {
 
 }
 
-/*.carousel__cell:nth-child(4n+1) { background: hsla(0, 100%, 50%, 0.8); }*/
-.carousel__cell:nth-child(4n+2) { background: hsla(90, 100%, 50%, 0.8); }
-.carousel__cell:nth-child(4n+3) { background: hsla(180, 100%, 50%, 0.8); }
-.carousel__cell:nth-child(4n+4) { background: hsla(270, 100%, 50%, 0.8); }
+.carousel__cell:nth-child(4n+1)
+{ background: hsla(0, 100%, 50%, 0); }
+.carousel__cell:nth-child(4n+2)
+    /*first was increments of 0, 90,180,270 degrees and the last was 0.8*/
+{ background: hsla(0, 100%, 50%, 0); }
+.carousel__cell:nth-child(4n+3)
+{ background: hsla(0, 100%, 50%, 0); }
+.carousel__cell:nth-child(4n+4)
+{ background: hsla(, 100%, 50%, 0); }
 /*.carousel__cell:nth-child(4n+5) { background: hsla(160, 100%, 50%, 0.8); }*/
 /*.carousel__cell:nth-child(4n+6) { background: hsla(200, 100%, 50%, 0.8); }*/
 /*.carousel__cell:nth-child(4n+7) { background: hsla(240, 100%, 50%, 0.8); }*/

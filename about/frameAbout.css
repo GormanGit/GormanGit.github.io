@@ -4,10 +4,11 @@
 
     justify-content: center;
     align-items: center;
-    border: 2px solid gray;
+    border: 2px solid darkred;
     border-radius: 3px;
     font-size: 10px;
-    background: yellow; /* best colour */
+    background: transparent; /* best colour */
+    color: transparent;
 
 }
 
@@ -18,23 +19,41 @@
     grid-auto-flow: dense;
 }
 .item:nth-child(even) {
-    background: dodgerblue;
+    background: transparent;
     grid-column: span 2;
     grid-row: span 2
 }
+.item:nth-child(even):hover {
+    background: gold;
+    /*grid-column: span 2;*/
+    /*grid-row: span 2*/
+}
 .item:nth-child(3n) {
-    background: greenyellow;
+    background: transparent;
     grid-column: span 1;
     grid-row: span 1;
 }
+.item:nth-child(3n):hover {
+    background: silver;
+    /*grid-column: span 1;*/
+    /*grid-row: span 1;*/
+}
 /*}*/
 .item:nth-child(8n){
-    background: tomato;
+    background: transparent;
     grid-row: span 3;
+}
+.item:nth-child(8n):hover{
+    background: greenyellow;
+    /*grid-row: span 3;*/
 }
 .item:nth-child(9n){
     grid-row: span 3;
-    background: powderblue;
+    background: transparent;
+}
+.item:nth-child(9n):hover{
+    /*grid-row: span 3;*/
+    background: orange;
 }
 
 
