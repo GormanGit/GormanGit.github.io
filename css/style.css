@@ -11,6 +11,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    -webkit-text-stroke: 0px!important;-webkit-font-smoothing: antialiased !important;
+
 }
 
 .scene {
@@ -87,5 +89,15 @@ body {
 /*.carousel__cell:nth-child(9) { transform: rotateY(320deg) translateZ(700px); }*/
 
 #if1{
-    object-fit: scale-down;
+    /*background-image: url('../resources/css/maincontentback.jpg');*/
+    /*background-repeat:repeat;*/
+    /*background-position:center center;*/
+    /*background-attachment:fixed;*/
+    /*background-size:cover;*/
+    /*-webkit-font-smoothing: antialiased;*/
+
+    object-fit: fill;
+    height: 100%;
+    width: 100%;
+
 }
