@@ -1,6 +1,6 @@
 /*602 x 480 media query*/
 body {
-    -webkit-text-stroke: 0px!important;-webkit-font-smoothing: antialiased !important;
+    /*-webkit-text-stroke: 0px!important;-webkit-font-smoothing: antialiased !important;*/
 }
 
 .item {
@@ -26,10 +26,11 @@ body {
     grid-column: 1 / -1;
 }
 .item2{
-background-color: white;
-grid-column: 2 / 14;
-grid-row: 2 / 6;
+    background-color: white;
+    grid-column: 2 / 14;
+    grid-row: 2 / 6;
     color: black;
+    font-size: 13px;
 }
 /*this is content for the about me*/
 .title{
