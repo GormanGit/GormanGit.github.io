@@ -4,7 +4,7 @@ body {
     -moz-appearance: none;
     appearance: none;
     padding: .5em;
-    background: black;
+    /*background: transparent;*/
     border: none;
     border-radius: 3px;
     /*padding: 0em 2em 2em 1em;*/
@@ -13,6 +13,7 @@ body {
 
 .item {
     /* We center the contents of these items. You can also do this with flexbox too! */
+    background-image: linear-gradient(to bottom right, white, grey, whitesmoke);
     display: grid;
     justify-content: center;
     align-items: center;
@@ -28,21 +29,24 @@ body {
     grid-template-columns: repeat(20, 1fr);
     grid-template-rows: 55px 35px 120px 35px 60px 70px 32px;
 }
-
+/*title bar*/
 .item1 {
-
-    margin-top: 10px;
-    background-color: grey;
+    display: flex;
+    margin-top: 0px;
+    /*background-color: grey;*/
     grid-column: 1 / -1;
-    color: white;
-    font-size: 10px;
+    font-size: 13px;
 }
-
+ h1{
+     font-family: 'Permanent Marker', cursive;
+     align-items: center;
+     color: black;
+ }
 .item2 {
-    background-color: black;
+    /*background-color: black;*/
     grid-column: 2 / 14;
     grid-row: 2 / 6;
-    color: white;
+    color: black;
 }
 
 /*this is content for the about me*/
@@ -57,18 +61,18 @@ body {
 }
 
 h3 {
-    font-family: 'Permanent Marker', cursive;
+    /*font-family: 'Permanent Marker', cursive;*/
     font-size: 15px;
 }
 
 .item3 {
-    background-color: grey;
+    /*background-color: grey;*/
     grid-column: 1/2;
     grid-row: 2 / 7;
 }
 
 .item9 {
-    background-color: grey;
+    /*background-color: grey;*/
     grid-column: 2 /-1;
     grid-row: 6/7;
 }
@@ -93,7 +97,7 @@ h3 {
 }
 
 .item7 {
-    background-color: grey;
+    /*background-color: grey;*/
     grid-row: 7/8;
     grid-column: 1/-1;
 
