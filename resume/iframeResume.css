@@ -67,8 +67,10 @@ body{
     background-image: linear-gradient(to bottom right, orange, darkgoldenrod, yellow);
     border: 1px solid grey;
 
+
 }
- .item3 p{
+/*title writing in first container*/
+.item3 p{
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -76,7 +78,8 @@ body{
     width:50%;
     font-size: 12px;
     color: black;
-
+    margin: 0;
+    margin-right: 3%;
  }
 #educationFirst{
     display: flex;
@@ -87,6 +90,10 @@ body{
     width: 50%;
     height: 100%;
     margin: 0;
+}
+.date1educate:hover{
+    font-size: 13px;
+
 }
 /*left column second down grey*/
 .item4{
