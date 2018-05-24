@@ -9,6 +9,7 @@ body {
     border-radius: 3px;
     /*padding: 0em 2em 2em 1em;*/
     font-size: 1em;
+    background-image: url("http://images.all-free-download.com/images/graphicthumb/black_pattern_vintage_backgrounds_vector_536697.jpg");
 }
 
 .item {
@@ -19,7 +20,7 @@ body {
     align-items: center;
     border-radius: 3px;
     color: transparent;
-    border: solid orange 1px;
+    border: solid darkgoldenrod 1px;
 }
 
 .container {
