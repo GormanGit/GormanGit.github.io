@@ -1,6 +1,8 @@
 body{
     height:auto;
     width: auto;
+    background-image: url("http://images.all-free-download.com/images/graphicthumb/black_pattern_vintage_backgrounds_vector_536697.jpg");
+
 }
 .container{
     width: 100%;
@@ -62,17 +64,18 @@ body{
     grid-row: 2/3;
     grid-column: 2/11;
     /*height*/
-    background-image: linear-gradient(to bottom right, orange, darkgoldenrod, orange);
+    background-image: linear-gradient(to bottom right, orange, darkgoldenrod, yellow);
+    border: 1px solid grey;
 
 }
- .item3 i{
+ .item3 p{
     display: flex;
     justify-content: flex-end;
     align-items: center;
     height: 100%;
     width:50%;
-    font-size: 20px;
-    color: green;
+    font-size: 12px;
+    color: black;
 
  }
 #educationFirst{
