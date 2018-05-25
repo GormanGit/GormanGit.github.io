@@ -16,7 +16,7 @@ body{
     grid-row-gap: 0;
 }
 .item{
-    /*display: flex;*/
+    display: flex;
 
     height: 100%;
     width: 100%;
@@ -80,6 +80,7 @@ body{
     color: black;
     margin: 0;
     margin-right: 3%;
+
  }
 #educationFirst{
     display: flex;
@@ -90,6 +91,7 @@ body{
     width: 50%;
     height: 100%;
     margin: 0;
+    margin-left: 3%;
 }
 .date1educate:hover{
     font-size: 13px;
@@ -97,23 +99,78 @@ body{
 }
 /*left column second down grey*/
 .item4{
+    display: flex;
     background-color: grey;
     grid-column: 2 / 11;
     grid-row: 3/4;
     background-image: linear-gradient(to bottom right, white, grey, whitesmoke);
-    display: grid;
+    /*display: grid;*/
     justify-content: center;
     align-items: center;
     border-radius: 3px;
     border: solid darkgoldenrod 1px;
 }
+.item4 p{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    width:50%;
+    font-size: 12px;
+    color: black;
+    margin: 0;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+#educationSecond{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: transparent;
+    font-size: 15px;
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    margin-left: 3%;
+}
+.date2educate:hover {
+    font-size: 13px;
+}
+
 /*left column third down orange*/
 .item5{
     background-color: orange;
+    background-image: linear-gradient(to bottom right, orange, darkgoldenrod, yellow);
     grid-row: 4/5;
     grid-column: 2/11;
+}
+.item5 p{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    width:50%;
+    font-size: 12px;
+    color: black;
+    margin: 0;
+    margin-right: 3%;
 
 }
+#educationThird{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: transparent;
+    font-size: 15px;
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    margin-left: 3%;
+}
+.date3educate:hover {
+    font-size: 13px;
+}
+
 /*left column bottom grey*/
 .item6{
     background-color: grey;
