@@ -17,21 +17,23 @@ body{
 }
 .item{
     display: flex;
-
     height: 100%;
     width: 100%;
+    opacity: .94;
 
 }
 /*header/Nav*/
 .item1{
+
     background-color: grey;
     grid-column: 1 / 11 ;
-    background-image: linear-gradient(to bottom right, white, grey, whitesmoke);
+    background-image: linear-gradient( white, grey, whitesmoke);
     display: grid;
     justify-content: center;
     align-items: center;
     border-radius: 3px;
     border: solid darkgoldenrod 1px;
+    opacity: .8;
     /*grid-row-gap: 5px;*/
 }
 .item17{
@@ -48,7 +50,7 @@ body{
 .item2{
     background-color: grey;
     grid-row: 2 / 7;
-    background-image: linear-gradient(to bottom right, white, grey, whitesmoke);
+    background-image: linear-gradient( white, grey, whitesmoke);
     display: grid;
     justify-content: center;
     align-items: center;
@@ -57,17 +59,12 @@ body{
 }
 
 .item3{
-    display: flex;
-    /*justify-content: center;*/
-    /*align-items: center;*/
     background-color: orange;
     grid-row: 2/3;
     grid-column: 2/11;
-    /*height*/
-    background-image: linear-gradient(to bottom right, orange, darkgoldenrod, yellow);
+    background-image: linear-gradient( orange, darkgoldenrod, orange, yellow);
+    border-radius: 3px;
     border: 1px solid grey;
-
-
 }
 /*title writing in first container*/
 .item3 p{
@@ -83,11 +80,10 @@ body{
 
  }
 #educationFirst{
-    display: flex;
     justify-content: flex-start;
     align-items: center;
     color: transparent;
-    font-size: 15px;
+    font-size: 14px;
     width: 50%;
     height: 100%;
     margin: 0;
@@ -99,7 +95,6 @@ body{
 }
 /*left column second down grey*/
 .item4{
-    display: flex;
     background-color: grey;
     grid-column: 2 / 11;
     grid-row: 3/4;
@@ -123,11 +118,10 @@ body{
     margin-left: 3%;
 }
 #educationSecond{
-    display: flex;
     justify-content: flex-start;
     align-items: center;
     color: transparent;
-    font-size: 15px;
+    font-size: 14px;
     width: 50%;
     height: 100%;
     margin: 0;
@@ -143,6 +137,8 @@ body{
     background-image: linear-gradient(to bottom right, orange, darkgoldenrod, yellow);
     grid-row: 4/5;
     grid-column: 2/11;
+    border-radius: 3px;
+    border: 1px solid grey;
 }
 .item5 p{
     display: flex;
@@ -157,11 +153,10 @@ body{
 
 }
 #educationThird{
-    display: flex;
     justify-content: flex-start;
     align-items: center;
     color: transparent;
-    font-size: 15px;
+    font-size: 14px;
     width: 50%;
     height: 100%;
     margin: 0;
@@ -177,30 +172,108 @@ body{
     grid-row: 5/6;
     grid-column: 2/11;
     background-image: linear-gradient(to bottom right, white, grey, whitesmoke);
-    display: grid;
     justify-content: center;
     align-items: center;
     border-radius: 3px;
     border: solid darkgoldenrod 1px;
 }
-/*right column top grey*/
+.item6 p{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    width:50%;
+    font-size: 12px;
+    color: black;
+    margin: 0;
+    margin-right: 3%;
+}
+#educationFourth{
+    /*display: flex;*/
+    justify-content: flex-start;
+    align-items: center;
+    color: transparent;
+    font-size: 14px;
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    margin-left: 3%;
+}
+.date4educate:hover {
+    font-size: 13px;
+}
+
+
+/*Right column top grey***********************************************************/
 .item7{
+
     background-color: grey;
     grid-row: 2/3;
     grid-column: 11/ 20;
     background-image: linear-gradient(to bottom right, white, grey, whitesmoke);
-    display: grid;
     justify-content: center;
     align-items: center;
     border-radius: 3px;
     border: solid darkgoldenrod 1px;
-
+}
+.item7 p{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width:50%;
+    font-size: 12px;
+    color: black;
+    margin: 0;
+    margin-left: 3%;
+}
+#workOne{
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+    color: transparent;
+    font-size: 14px;
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    margin-right: 3%;
+}
+.date1Work:hover {
+    font-size: 13px;
 }
 /*right column second down orange*/
 .item8{
     background-color: orange;
+    background-image: linear-gradient( orange, darkgoldenrod, orange);
     grid-row: 3/4;
     grid-column: 11/20;
+    border-radius: 3px;
+    border: solid darkgoldenrod 1px;
+}
+.item8 p{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width:50%;
+    font-size: 12px;
+    color: black;
+    margin: 0;
+    margin-left: 3%;
+}
+#workTwo{
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+    color: transparent;
+    font-size: 14px;
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    margin-right: 3%;
+}
+.date2Work:hover {
+    font-size: 13px;
 }
 /*right column third down grey*/
 .item9{
@@ -208,18 +281,68 @@ body{
     grid-row: 4/5;
     grid-column: 11/ 20;
     background-image: linear-gradient(to bottom right, white, grey, whitesmoke);
-    display: grid;
     justify-content: center;
     align-items: center;
     border-radius: 3px;
     border: solid darkgoldenrod 1px;
-
+}
+.item9 p{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width:50%;
+    font-size: 12px;
+    color: black;
+    margin: 0;
+    margin-left: 3%;
+}
+#workThree{
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+    color: transparent;
+    font-size: 14px;
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    margin-right: 3%;
+}
+.date3Work:hover {
+    font-size: 13px;
 }
 /*right column bottom*/
 .item10{
     background-color: orange;
+    background-image: linear-gradient( orange, darkgoldenrod, orange);
     grid-row: 5/6;
     grid-column: 11/20;
+    border-radius: 3px;
+}
+.item10 p{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width:50%;
+    font-size: 12px;
+    color: black;
+    margin: 0;
+    margin-left: 3%;
+}
+#workFour{
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+    color: transparent;
+    font-size: 14px;
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    margin-right: 3%;
+}
+.date4Work:hover {
+    font-size: 13px;
 }
 .item11{
     background-color: grey;
@@ -232,6 +355,7 @@ body{
     border-radius: 3px;
     border: solid darkgoldenrod 1px;
 }
+
 .item12{
     background-color: grey;
     grid-row: 6/7;

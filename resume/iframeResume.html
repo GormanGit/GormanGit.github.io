@@ -5,35 +5,52 @@
     <link rel="stylesheet" href ="iframeResume.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
-    <title>Title</title>
+    <title>Resume</title>
 </head>
 <body>
 <div>
     <div class="container">
-        <div class="item item1">Education Timeline</div>
+        <div class="item item1">Education</div>
         <div class="item item2"></div>
         <div class="item item3">
             <p id="educationFirst">Austin Coding Academy-JavaScript Full Stack</p>
-            <p class="date1educate" onclick="showFunction1()">2017-2018</p></div>
+            <p class="date1educate" onclick="showFunction1()">2017-2018</p>
+        </div>
         <div class="item item4">
             <p id="educationSecond">Graduate Work University of Wisconsin-Madison/Villanova</p>
-            <p class="date2educate" onclick="showFunction2()">2015-2017</p></div>
+            <p class="date2educate" onclick="showFunction2()">2015-2017</p>
+        </div>
         <div class="item item5">
             <p id="educationThird">B.S. Environmental Engineering, Texas A&M Kingsville</p>
             <p class="date3educate" onclick="showFunction3()">2010-2014</p>
         </div>
-        <div class="item item6"></div>
-        <div class="item item7"></div>
-        <div class="item item8"></div>
-        <div class="item item9"></div>
-        <div class="item item10"></div>
+        <div class="item item6">
+            <p id="educationFourth">Not Sure What I want to put here yet</p>
+            <p class="date4educate" onclick="showFunction4()">3000</p>
+        </div>
+        <div class="item item7">
+            <p class="date1Work" onclick="showFunction5()">2018-Present</p>
+            <p id="workOne">Teaching Assistant Austin Coding Academy-Intro to the Web</p>
+        </div>
+        <div class="item item8">
+            <p class="date2Work" onclick="showFunction6()">2016-2017</p>
+            <p id="workTwo">Independent Contractor-Driver</p>
+        </div>
+        <div class="item item9">
+            <p class="date3Work" onclick="showFunction7()">2014-2015</p>
+            <p id="workThree">Bidding and Estimating-Megladon Manufacturing LLC</p>
+        </div>
+        <div class="item item10">
+            <p class="date4Work" onclick="showFunction8()">2013-2014</p>
+            <p id="workFour">CEO-G&G Power Systems</p>
+        </div>
         <div class="item item11"></div>
         <div class="item item12"></div>
         <div class="item item13"></div>
         <div class="item item14"></div>
         <div class="item item15"></div>
         <div class="item item16"></div>
-        <div class="item item17"></div>
+        <div class="item item17">Work</div>
         <div class="item item18"></div>
         <div class="item item19"></div>
         <div class="item item20"></div>
@@ -49,6 +66,21 @@
     }
     function showFunction3(){
       var education3 = document.getElementById("educationThird").style.color = "black";
+    }
+    function showFunction4(){
+      var education4 = document.getElementById("educationFourth").style.color = "black";
+    }
+    function showFunction5(){
+      var work1 = document.getElementById("workOne").style.color = "black";
+    }
+    function showFunction6(){
+      var work2 = document.getElementById("workTwo").style.color = "black";
+    }
+    function showFunction7(){
+      var work3 = document.getElementById("workThree").style.color = "black";
+    }
+    function showFunction8(){
+      var work4 = document.getElementById("workFour").style.color = "black";
     }
 </script>
 </body>

@@ -21,6 +21,7 @@ body {
     border-radius: 3px;
     color: transparent;
     border: solid darkgoldenrod 1px;
+    opacity: .94;
 }
 
 .container {
@@ -85,8 +86,8 @@ h3 {
     background-color: transparent;
     grid-column: 14 / 21;
     grid-row: 2 / 6;
+    opacity: 10; !important
 }
-
 .item img {
     border-radius: 2.1px;
     grid-column: 14 / 21;
@@ -95,6 +96,7 @@ h3 {
 !important;
     height: 100%;
 !important;
+    opacity: 10; !important
 }
 
 .item7 {
