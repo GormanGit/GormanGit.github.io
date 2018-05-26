@@ -2,7 +2,8 @@ body{
     height:auto;
     width: auto;
     background-image: url("http://images.all-free-download.com/images/graphicthumb/black_pattern_vintage_backgrounds_vector_536697.jpg");
-
+    /*font-family: 'Yatra One', cursive;*/
+    font-family: 'Fondamento', cursive
 }
 .container{
     width: 100%;
@@ -62,7 +63,7 @@ body{
     background-color: orange;
     grid-row: 2/3;
     grid-column: 2/11;
-    background-image: linear-gradient( orange, darkgoldenrod, orange, yellow);
+    background-image: linear-gradient( orange, darkgoldenrod, orange, gold);
     border-radius: 3px;
     border: 1px solid grey;
 }
