@@ -15,15 +15,13 @@ h1{
     width: 100%;
     align-items: center;
     justify-content: center;
-    font-size: 80px;
+    font-size: 100px;
     color: white;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px ;
     -webkit-text-stroke-color: white ;
-    -webkit-text-stroke:
+    /*-webkit-text-stroke:*/
     background:  url("http://images.all-free-download.com/images/graphicthumb/black_pattern_vintage_backgrounds_vector_536697.jpg");
     -webkit-background-clip: text;
-
-
 
 }

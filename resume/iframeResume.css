@@ -28,19 +28,19 @@ body{
 
     background-color: grey;
     grid-column: 1 / 11 ;
-    background-image: linear-gradient( white, grey, whitesmoke);
+    background-image: linear-gradient( grey, whitesmoke);
     display: grid;
     justify-content: center;
     align-items: center;
     border-radius: 3px;
     border: solid darkgoldenrod 1px;
-    opacity: .8;
+    /*opacity: .8;*/
     /*grid-row-gap: 5px;*/
 }
 .item17{
     background-color: grey;
     grid-column: 11 / 21 ;
-    background-image: linear-gradient(to bottom right, white, grey, whitesmoke);
+    background-image: linear-gradient( grey, whitesmoke);
     display: grid;
     justify-content: center;
     align-items: center;
@@ -51,7 +51,7 @@ body{
 .item2{
     background-color: grey;
     grid-row: 2 / 7;
-    background-image: linear-gradient( white, grey, whitesmoke);
+    background-image: linear-gradient( grey, whitesmoke);
     display: grid;
     justify-content: center;
     align-items: center;
@@ -63,7 +63,7 @@ body{
     background-color: orange;
     grid-row: 2/3;
     grid-column: 2/11;
-    background-image: linear-gradient( orange, darkgoldenrod, orange, gold);
+    background-image: linear-gradient(  darkgoldenrod, orange);
     border-radius: 3px;
     border: 1px solid grey;
 }
@@ -99,7 +99,7 @@ body{
     background-color: grey;
     grid-column: 2 / 11;
     grid-row: 3/4;
-    background-image: linear-gradient(to bottom right, white, grey, whitesmoke);
+    background-image: linear-gradient( grey, whitesmoke);
     /*display: grid;*/
     justify-content: center;
     align-items: center;
@@ -135,7 +135,7 @@ body{
 /*left column third down orange*/
 .item5{
     background-color: orange;
-    background-image: linear-gradient(to bottom right, orange, darkgoldenrod, yellow);
+    background-image: linear-gradient( darkgoldenrod, orange);
     grid-row: 4/5;
     grid-column: 2/11;
     border-radius: 3px;
@@ -172,7 +172,7 @@ body{
     background-color: grey;
     grid-row: 5/6;
     grid-column: 2/11;
-    background-image: linear-gradient(to bottom right, white, grey, whitesmoke);
+    background-image: linear-gradient(  grey, whitesmoke);
     justify-content: center;
     align-items: center;
     border-radius: 3px;
@@ -211,7 +211,7 @@ body{
     background-color: grey;
     grid-row: 2/3;
     grid-column: 11/ 20;
-    background-image: linear-gradient(to bottom right, white, grey, whitesmoke);
+    background-image: linear-gradient( grey, whitesmoke);
     justify-content: center;
     align-items: center;
     border-radius: 3px;
@@ -245,7 +245,7 @@ body{
 /*right column second down orange*/
 .item8{
     background-color: orange;
-    background-image: linear-gradient( orange, darkgoldenrod, orange);
+    background-image: linear-gradient( darkgoldenrod, orange);
     grid-row: 3/4;
     grid-column: 11/20;
     border-radius: 3px;
@@ -281,7 +281,7 @@ body{
     background-color: grey;
     grid-row: 4/5;
     grid-column: 11/ 20;
-    background-image: linear-gradient(to bottom right, white, grey, whitesmoke);
+    background-image: linear-gradient(  grey, whitesmoke);
     justify-content: center;
     align-items: center;
     border-radius: 3px;
@@ -315,7 +315,7 @@ body{
 /*right column bottom*/
 .item10{
     background-color: orange;
-    background-image: linear-gradient( orange, darkgoldenrod, orange);
+    background-image: linear-gradient( darkgoldenrod, orange);
     grid-row: 5/6;
     grid-column: 11/20;
     border-radius: 3px;
@@ -349,7 +349,7 @@ body{
     background-color: grey;
     grid-row: 2/7;
     grid-column: 20/21;
-    background-image: linear-gradient(to bottom right, white, grey, whitesmoke);
+    background-image: linear-gradient( white, grey, whitesmoke);
     justify-content: center;
     align-items: center;
     border-radius: 3px;
@@ -361,7 +361,7 @@ body{
     background-color: grey;
     grid-row: 6/7;
     grid-column: 16/17;
-    background-image: linear-gradient(to bottom right, white, grey, whitesmoke);
+    background-image: linear-gradient( white, grey, whitesmoke);
     align-items: center;
     border-radius: 3px;
     border: solid darkgoldenrod 1px;
@@ -378,7 +378,7 @@ body{
     background-color: grey;
     grid-row: 6/7;
     grid-column: 17/18;
-    background-image: linear-gradient(to bottom right, white, grey, whitesmoke);
+    background-image: linear-gradient( white, grey, whitesmoke);
     align-items: center;
     border-radius: 3px;
     border: solid darkgoldenrod 1px;
@@ -387,7 +387,7 @@ body{
     background-color: grey;
     grid-row: 6/7;
     grid-column: 18/19;
-    background-image: linear-gradient(to bottom right, white, grey, whitesmoke);
+    background-image: linear-gradient( white, grey, whitesmoke);
     align-items: center;
     border-radius: 3px;
     border: solid darkgoldenrod 1px;
@@ -396,7 +396,7 @@ body{
     background-color: blue;
     grid-row: 6/7;
     grid-column: 19/20;
-    background-image: linear-gradient(to bottom right, blue, darkblue, blue);
+    background-image: linear-gradient( blue, darkblue, blue);
     /*background-image: url("");*/
     align-items: center;
     border-radius: 3px;
@@ -410,7 +410,7 @@ body{
     background-color: grey;
     grid-row: 7/8;
     grid-column: 1/-1;
-    background-image: linear-gradient(to bottom right, white, grey, whitesmoke);
+    background-image: linear-gradient( white, grey, whitesmoke);
     display: grid;
     justify-content: center;
     align-items: center;

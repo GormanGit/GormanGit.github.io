@@ -1,0 +1,167 @@
+body{
+    height:auto;
+    width: auto;
+    background-image: url("http://images.all-free-download.com/images/graphicthumb/black_pattern_vintage_backgrounds_vector_536697.jpg");
+    /*font-family: 'Yatra One', cursive;*/
+    font-family: 'Fondamento', cursive
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: 55px 75px 75px 75px 75px 32px 32px;
+}
+.item{
+    color: white;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    opacity: .94;
+    font-size: 10px;
+
+}
+.item1{
+
+    background-color: grey;
+    grid-column: 1 / 21 ;
+    background-image: linear-gradient( grey, whitesmoke);
+    /*display: grid;*/
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    /*border: solid darkgoldenrod 1px;*/
+    /*opacity: .8;*/
+    /*grid-row-gap: 5px;*/
+}
+
+.item2{
+    background-color: transparent;
+    grid-row: 2 / 7;
+    /*background-image: linear-gradient( grey, whitesmoke);*/
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    /*border: solid darkgoldenrod 1px;*/
+}
+
+.item3{
+    background-color: transparent;
+    grid-row: 2/3;
+    grid-column: 2/11;
+    /*background-image: linear-gradient(  darkgoldenrod, orange);*/
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    /*border: 1px solid grey;*/
+}
+
+/*left column second down grey*/
+.item4{
+    background-color: transparent;
+    grid-column: 2 / 11;
+    grid-row: 3/4;
+    /*background-image: linear-gradient( grey, whitesmoke);*/
+    /*display: grid;*/
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    /*border: solid darkgoldenrod 1px;*/
+}
+
+/*left column third down orange*/
+.item5{
+    background-color: transparent;
+    /*background-image: linear-gradient( darkgoldenrod, orange);*/
+    grid-row: 4/5;
+    grid-column: 2/11;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    /*border: 1px solid grey;*/
+}
+
+/*left column bottom grey*/
+.item6{
+    background-color: transparent;
+    grid-row: 5/6;
+    grid-column: 2/11;
+    /*background-image: linear-gradient(  grey, whitesmoke);*/
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    /*border: solid darkgoldenrod 1px;*/
+}
+
+/*Right column top grey***********************************************************/
+.item7{
+    background-color: transparent;
+    grid-row: 2/3;
+    grid-column: 11/ 20;
+    /*background-image: linear-gradient( grey, whitesmoke);*/
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    /*border: solid darkgoldenrod 1px;*/
+}
+
+/*right column second down orange*/
+.item8{
+    background-color: transparent;
+    /*background-image: linear-gradient( darkgoldenrod, orange);*/
+    grid-row: 3/4;
+    grid-column: 11/20;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    /*border: solid darkgoldenrod 1px;*/
+}
+
+/*right column third down grey*/
+.item9{
+    background-color: transparent;
+    grid-row: 4/5;
+    grid-column: 11/ 20;
+    /*background-image: linear-gradient(  grey, whitesmoke);*/
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    /*border: solid darkgoldenrod 1px;*/
+}
+
+
+/*right column bottom*/
+.item10{
+    background-color: transparent;
+    /*background-image: linear-gradient( darkgoldenrod, orange);*/
+    grid-row: 5/6;
+    grid-column: 11/20;
+    border-radius: 3px;
+}
+
+
+
+.item11{
+    background-color: transparent;
+    grid-row: 2/7;
+    grid-column: 20/21;
+    /*background-image: linear-gradient( white, grey, whitesmoke);*/
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    /*border: solid darkgoldenrod 1px;*/
+}
+.item16{
+    background-color: grey;
+    grid-row: 7/8;
+    grid-column: 1/-1;
+    background-image: linear-gradient( white, grey, whitesmoke);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    /*border: solid darkgoldenrod 1px;*/
+}
