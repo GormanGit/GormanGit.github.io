@@ -17,20 +17,19 @@ body {
     /*-webkit-text-stroke: 0px!important;-webkit-font-smoothing: antialiased !important;*/
 
 }
-/*@media screen and(max-width: 1100px){*/
-    /*.buttons{*/
-        /*color:red;*/
-    /*}*/
-/*}*/
+
 
 .scene {
     display: flex;
-    /*border: 1px solid green;*/
-    /*margin: 40px 0;*/
-    position: relative;
+    border: 1px solid green;
+    justify-content: center;
+    position: center;
+    /*margin-left: 40px;*/
+    /*position: relative;*/
     width: 640px;
     height: 480px;
-    margin: 40px auto;
+    margin: 45px auto;
+
     margin-top: 150px;
     perspective: 1000px;
 }
@@ -59,8 +58,9 @@ body {
 }
 .buttons{
     display: flex;
-    justify-content: space-between;
-    /*margin-top: 15%;!important;*/
+    justify-content: center;
+
+    margin-top: 15%;!important;
     /*align-items: center;*/
     /*border: solid orange 1px;*/
 }
@@ -88,7 +88,7 @@ body {
 /*.carousel__cell:nth-child(4n+8) { background: hsla(280, 100%, 50%, 0.8); }*/
 /*.carousel__cell:nth-child(4n+0) { background: hsla(320, 100%, 50%, 0.8); }*/
 
-.carousel__cell:nth-child(1) { transform: rotateY( 0deg) translateZ(650px); }
+.carousel__cell:nth-child(1) { transform: rotateY( -.5deg) translateZ(650px); }
 .carousel__cell:nth-child(2) { transform: rotateY(72deg) translateZ(650px); }
 .carousel__cell:nth-child(3) { transform: rotateY(144deg) translateZ(650px); }
 .carousel__cell:nth-child(4) { transform: rotateY(216deg) translateZ(650px); }
@@ -106,3 +106,55 @@ body {
 
 /*}*/
 
+@media screen and (min-width: 321px) and (max-width:480px) {
+    body {
+        /*display: flex;*/
+        /*background-color: darkblue;*/
+        /*margin-left: 5%;*/
+        /*padding-left: 5%;*/
+    }
+    .scene{
+        justify-content: center;
+        margin-left: 30%;
+    }
+    .carousel{
+        justify-content: center;
+
+    /*margin-left: 15%;*/
+}
+    .buttons {
+        /*display: flex;*/
+        /*justify-content: center;*/
+        margin-top: 50%;
+        margin-left: 450px;
+    }
+
+}
+    /*.carousel__cell{*/
+        /*position: absolute;*/
+        /*width: 320px;*/
+        /*height: 240px;*/
+        /*left: 10px;*/
+        /*top: 10px;*/
+        /*border: 2px solid white;*/
+        /*line-height: 116px;*/
+        /*font-size: 80px;*/
+        /*font-weight: bold;*/
+        /*color: white;*/
+        /*text-align: center;*/
+    /*}*/
+    /*.scene {*/
+        /*display: flex;*/
+        /*border: 1px solid green;*/
+        /*!*justify-content: center;*!*/
+        /*position: center;*/
+        /*!*margin-left: 40px;*!*/
+        /*!*position: relative;*!*/
+        /*width: 320px;*/
+        /*height: 240px;*/
+        /*margin: 60px auto;*/
+        /*margin-top: 150px;*/
+        /*perspective: 1000px;*/
+    /*}*/
+
+/*}*/
