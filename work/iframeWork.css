@@ -1,9 +1,32 @@
 body{
+    display: flex;
     height:auto;
     width: auto;
     /*background-image: url("http://images.all-free-download.com/images/graphicthumb/black_pattern_vintage_backgrounds_vector_536697.jpg");*/
     /*font-family: 'Yatra One', cursive;*/
-    font-family: 'Fondamento', cursive
+    font-family: 'Fondamento', cursive;
+    background-color: black;
+}
+a{
+    /*color: white;*/
+    text-decoration: none;
+    /*outline-color: white;*/
+}
+h1{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: white;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px ;
+    -webkit-text-stroke-color: white ;
+    /*-webkit-text-stroke:*/
+    background:  url("http://images.all-free-download.com/images/graphicthumb/black_pattern_vintage_backgrounds_vector_536697.jpg");
+    -webkit-background-clip: text;
+
 }
 .container{
     width: 100%;
@@ -14,12 +37,13 @@ body{
     grid-template-rows: 55px 75px 75px 75px 75px 32px 32px;
 }
 .item{
+    text-align: center;
     color: white;
     display: flex;
     height: 100%;
     width: 100%;
     opacity: .94;
-    font-size: 10px;
+    font-size: 12px;
 }
 .item1{
 

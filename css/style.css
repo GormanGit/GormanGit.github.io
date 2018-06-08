@@ -21,7 +21,7 @@ body {
 
 .scene {
     display: flex;
-    border: 1px solid green;
+    /*border: 1px solid green;*/
     justify-content: center;
     position: center;
     /*margin-left: 40px;*/
@@ -29,7 +29,6 @@ body {
     width: 640px;
     height: 480px;
     margin: 45px auto;
-
     margin-top: 150px;
     perspective: 1000px;
 }
@@ -59,15 +58,40 @@ body {
 .buttons{
     display: flex;
     justify-content: center;
-
+    /*color:red;*/
     margin-top: 15%;!important;
     /*align-items: center;*/
     /*border: solid orange 1px;*/
 }
+.glyphicon{
+    font-size: 50px;
+
+}
+.glyphicon:hover{
+    font-size: 50px;
+    /*color: blue;*/
+}
 .previous-button{
+    /*background-color: transparent;*/
+    /*text-decoration: none;*/
+    /*border: none;*/
+    /*border-right: 20px solid red;*/
+    /*border-bottom: 20px solid red;*/
+    /*height: 30px;*/
+    /*width: 30px;*/
+    /*transform: rotate(-225deg);*/
     /*design button*/
 }
 .next-button{
+    /*background-color: transparent;*/
+    /*!*color: gold;*!*/
+    /*text-decoration: none;*/
+    /*border: none;*/
+    /*border-right: 20px solid red;*/
+    /*border-bottom: 20px solid red;*/
+    /*height: 30px;*/
+    /*width: 30px;*/
+    /*transform: rotate(-45deg);*/
     /*design button*/
 
 }
@@ -108,6 +132,7 @@ body {
 
 @media screen and (min-width: 321px) and (max-width:480px) {
     body {
+        width: 100%;
         /*display: flex;*/
         /*background-color: darkblue;*/
         /*margin-left: 5%;*/
