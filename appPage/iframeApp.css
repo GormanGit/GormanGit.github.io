@@ -1,0 +1,17 @@
+body{
+    height: 100%;
+    width:100%;
+    margin: 0;
+    /*background-color: green;*/
+}
+.body{
+    height: 475px;
+    width:100%;
+    background-color: green;
+    margin: -8px;
+}
+iframe{
+    height: 476px;
+    width: 100%;
+    margin:0;
+}
