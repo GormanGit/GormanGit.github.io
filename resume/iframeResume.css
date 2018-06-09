@@ -403,6 +403,15 @@ body{
     border-radius: 3px;
     border: solid darkgoldenrod 1px;
 }
+.item14 img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: black;
+    /*margin-left: 11%;*/
+}
 .item15{
     background-color: blue;
     grid-row: 6/7;

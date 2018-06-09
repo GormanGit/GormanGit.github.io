@@ -2,7 +2,7 @@
 
 
 var carousel = document.querySelector('.carousel');
-var cellCount = 5;
+var cellCount = 4;
 var selectedIndex = 0;
 
 function rotateCarousel() {

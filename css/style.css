@@ -17,8 +17,6 @@ body {
     /*-webkit-text-stroke: 0px!important;-webkit-font-smoothing: antialiased !important;*/
 
 }
-
-
 .scene {
     display: flex;
     /*border: 1px solid green;*/
@@ -32,7 +30,6 @@ body {
     margin-top: 150px;
     perspective: 1000px;
 }
-
 .carousel {
     width: 100%;
     height: 100%;
@@ -41,7 +38,6 @@ body {
     transform-style: preserve-3d;
     transition: transform .4s;
 }
-
 .carousel__cell {
     position: absolute;
     width: 640px;
@@ -59,7 +55,7 @@ body {
     display: flex;
     justify-content: center;
     /*color:red;*/
-    margin-top: 15%;!important;
+    margin-top: 12%;!important;
     /*align-items: center;*/
     /*border: solid orange 1px;*/
 
@@ -70,6 +66,7 @@ body {
 }
 .glyphicon:hover{
     font-size: 50px;
+    color: whitesmoke;
     /*color: blue;*/
 }
 .previous-button{
@@ -98,7 +95,6 @@ body {
     /*design button*/
 
 }
-
 .carousel__cell:nth-child(4n+1)
 { background: hsla(0, 100%, 50%, 0); }
 .carousel__cell:nth-child(4n+2)
@@ -116,10 +112,10 @@ body {
 /*.carousel__cell:nth-child(4n+0) { background: hsla(320, 100%, 50%, 0.8); }*/
 
 .carousel__cell:nth-child(1) { transform: rotateY( -.5deg) translateZ(650px); }
-.carousel__cell:nth-child(2) { transform: rotateY(72deg) translateZ(650px); }
-.carousel__cell:nth-child(3) { transform: rotateY(144deg) translateZ(650px); }
-.carousel__cell:nth-child(4) { transform: rotateY(216deg) translateZ(650px); }
-.carousel__cell:nth-child(5) { transform: rotateY(288deg) translateZ(650px); }
+.carousel__cell:nth-child(2) { transform: rotateY(90deg) translateZ(650px); }
+.carousel__cell:nth-child(3) { transform: rotateY(180deg) translateZ(650px); }
+.carousel__cell:nth-child(4) { transform: rotateY(270deg) translateZ(650px); }
+/*.carousel__cell:nth-child(5) { transform: rotateY(288deg) translateZ(650px); }*/
 /*.carousel__cell:nth-child(6) { transform: rotateY(200deg) translateZ(700px); }*/
 /*.carousel__cell:nth-child(7) { transform: rotateY(240deg) translateZ(700px); }*/
 /*.carousel__cell:nth-child(8) { transform: rotateY(280deg) translateZ(700px); }*/
